@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CustomBeanRegistry">
+    <option name="map">
+      <map>
+        <entry key="&lt;jaxws:endpoint xmlns:jaxws=&quot;http://cxf.apache.org/jaxws&quot; id=&quot;helloService&quot; implementor=&quot;#helloServiceImpl&quot; address=&quot;hello&quot; publish=&quot;true&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="helloService" />
+                <option name="beanClassName" value="org.apache.cxf.jaxws.spring.EndpointDefinitionParser$SpringEndpointImpl" />
+                <option name="idAttribute" value="id" />
+                <option name="constructorArgumentCount" value="1" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+        <entry key="&lt;jaxws:endpoint xmlns:jaxws=&quot;http://cxf.apache.org/jaxws&quot; id=&quot;helloService&quot; implementor=&quot;#helloServiceImpl&quot; address=&quot;student&quot; publish=&quot;true&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="helloService" />
+                <option name="beanClassName" value="org.apache.cxf.jaxws.spring.EndpointDefinitionParser$SpringEndpointImpl" />
+                <option name="idAttribute" value="id" />
+                <option name="constructorArgumentCount" value="1" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="policies">
+      <map>
+        <entry>
+          <key>
+            <MyQName>
+              <option name="namespace" value="http://cxf.apache.org/jaxws" />
+              <option name="localName" value="endpoint" />
+            </MyQName>
+          </key>
+          <value>
+            <CustomBeanInfo>
+              <option name="beanClassName" value="org.apache.cxf.jaxws.spring.EndpointDefinitionParser$SpringEndpointImpl" />
+              <option name="idAttribute" value="id" />
+              <option name="constructorArgumentCount" value="1" />
+            </CustomBeanInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

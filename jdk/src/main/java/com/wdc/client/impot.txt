@@ -1,0 +1,1 @@
+wsimport -s F:\work-space\IDEA-space\WebService\jdk\src\main\java -p com.wdc.client -keep http://127.0.0.1/webservice/user?wsdl -encoding utf-8

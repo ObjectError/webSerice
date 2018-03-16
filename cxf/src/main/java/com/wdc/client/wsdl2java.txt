@@ -1,0 +1,1 @@
+wsdl2java -d F:\work-space\IDEA-space\WebService\cxf\src\main\java -p com.wdc.client -encoding utf-8 -client http://localhost:8080/webservice/student?wsdl
